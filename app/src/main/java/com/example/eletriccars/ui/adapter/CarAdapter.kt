@@ -25,7 +25,6 @@ class CarAdapter (val context: Context, private val cars: List<Car>): RecyclerVi
     }
 
 
-    // Pega o conteúdo da view e troca pela informação de item de uma lista
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val car = cars[position]
@@ -47,8 +46,10 @@ class CarAdapter (val context: Context, private val cars: List<Car>): RecyclerVi
         val carSearched = repository.findCarById(car.id)
 
         if(carSearched.id == 0){
+            car.isFavorite = false
             holder.favorite.setImageResource(R.drawable.ic_star)
         } else {
+            car.isFavorite = true
             holder.favorite.setImageResource(R.drawable.ic_star_selected)
         }
     }

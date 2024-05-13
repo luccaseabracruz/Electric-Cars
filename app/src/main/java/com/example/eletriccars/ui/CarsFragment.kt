@@ -134,7 +134,12 @@ class CarsFragment : Fragment() {
         }
 
         carAdapter.carItemListener = { car ->
-            val isSaved = CarRepository(requireContext()).saveIfNotExists(car)
+            if(car.isFavorite){
+                val isDeleted = CarRepository(requireContext()).delete(car)
+            } else {
+                val isSaved = CarRepository(requireContext()).saveIfNotExists(car)
+            }
+
         }
 
         fabCalculateAutonomy.visibility = View.VISIBLE

@@ -55,12 +55,7 @@ class FavoritesFragment: Fragment() {
 
         carAdapter.carItemListener = { car ->
             val isDeleted = CarRepository(requireContext()).delete(car)
-            updateList()
+            setupList()
         }
     }
-
-    fun updateList() {
-        setupList()
-    }
-
 }
