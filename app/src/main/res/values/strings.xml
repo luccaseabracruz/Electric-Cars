@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Electric Cars</string>
+    <string name="recharge">Recharge</string>
+    <string name="price">Price</string>
+    <string name="app_title" translatable="false">Electric Cars</string>
+    <string name="cars">Cars</string>
+    <string name="favorites">Favorites</string>
+    <string name="price_value" translatable="false">R$200.000</string>
+    <string name="battery">Battery</string>
+    <string name="battery_value" translatable="false">94.5 kWh</string>
+    <string name="horsepower">Horsepower</string>
+    <string name="horsepower_value" translatable="false">300 cv</string>
+    <string name="recharge_value" translatable="false">40 min</string>
+    <string name="calculate">Calculate</string>
+    <string name="kwh_s_price_hint">kWh\'s price</string>
+    <string name="kilometers_traveled_hint">Kilometers traveled</string>
+    <string name="calculate_autonomy">Calculate Autonomy</string>
+    <string name="result_r">Result: R</string>
+    <string name="close_layout_button_description">Close layout button.</string>
+    <string name="car_image">Car image.</string>
+    <string name="no_connection_text">Your device has no connection :(</string>
+    <string name="saved_calc" translatable="false">Result</string>
+</resources>

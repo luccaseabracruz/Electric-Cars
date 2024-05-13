@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electric Cars</string>
+    <string name="recharge">Recarga</string>
+    <string name="price">Preço</string>
+    <string name="cars">Carros</string>
+    <string name="favorites">Favoritos</string>
+    <string name="battery">Bateria</string>
+    <string name="horsepower">Cavalos</string>
+    <string name="calculate">Calcular</string>
+    <string name="kwh_s_price_hint">Preço kWh\'s</string>
+    <string name="kilometers_traveled_hint">Kilômetros percorridos</string>
+    <string name="calculate_autonomy">Calcular Autonomia</string>
+    <string name="result_r">Resultado: R</string>
+    <string name="close_layout_button_description">Botão de fechar página.</string>
+    <string name="car_image">Imagem de Carro.</string>
+    <string name="no_connection_text">Seu despositivo não possui conexão :(</string>
+</resources>
